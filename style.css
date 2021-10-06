@@ -1,0 +1,166 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    height: auto;
+    margin: 0;
+    
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+.pad{
+    padding-top: 20px;
+}
+
+.padd{
+    padding-top: 20px;
+    margin-left: 6px;
+}
+
+input:focus{
+    background-color: #564d4d;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px
+}
+
+button:hover{
+    background-color: #831010;
+}
+
+.title{
+    margin: 10px;
+}
+.input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 95%;
+    margin: 10px;
+}
+
+.float{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+
+.float2{
+    position: absolute;
+    left: 50px;
+    top: 238px;
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+    overflow: hidden;
+}
+
+button{
+    background-color: #db0000;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+.check{
+    float: left;
+    background-color: #a09c9c;  
+}
+
+.others{
+    margin-left: 10px;
+}
+
+.dim{
+    color: #564d4d;
+}
+
+label{
+    margin-left: 5px;
+    color: #a09c9c;
+}
+
+.dim-3{
+    margin-left: 128px;
+}
+
+.img {
+    float: left;
+}
+
+.log {
+    margin-left: 25px;
+}
+
+
+.n-dim{
+    color: #ffffff;
+}
+
+.center{
+    text-align: center;
+}
+
+.well{
+    margin-top: 200px;
+}
+
+.red{
+    color: #db0000;
+}
+
+.rred{
+    color: rgb(161, 161, 161);
+}
+
+.butt{
+    color: #db0000;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 15px;
+    outline: none;
+    border: #ffffff solid 2px;
+}
+
+.butt:hover{
+    color: #ffffff;
+}
+
+@media(min-width: 500px) {
+    .float{
+        position: absolute;
+        left: 260px;
+        top: 150px;
+        color: rgb(161, 161, 161);
+        font-size: 14px;
+    }
+    
+    .float2{
+        position: absolute;
+        left: 260px;
+        top: 238px;
+        color: rgb(161, 161, 161);
+        font-size: 14px;
+    }
+
+    .dim-3{
+        margin-left: 640px;
+    }
+}
+
+@media(min-width: 700px) {
+    
+}
